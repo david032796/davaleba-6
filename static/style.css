@@ -1,0 +1,217 @@
+/* HEADER */
+header{
+    background-color: #F7F5F5;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    height: 100px;
+}
+
+.header-container nav {
+   display: flex;
+   align-items: center;
+   font-family: 'Cinzel';
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+
+.active{
+    font-weight: bold;
+    font-size: 20px;
+}
+.profile-icon{
+    width: 50px;
+}
+.logo {
+    width: 200.3px;
+}
+
+.header-container a {
+    margin-right: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #3F3232;
+
+}
+
+/* MAIN */
+.main-container {
+    margin: 0 100px;
+    position: relative;
+}
+
+.main-container h1 {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 30px 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+.card1, .card2, .card3 {
+    width: 233px;
+    height: 390px;
+    background: #F7F5F5;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 5px;
+    Font style: Bold
+}
+
+.card-img{
+    display: flex;
+    width: 200.94px;
+    height: 250px;
+    margin: 15px;
+}
+
+
+.name-prise{
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.new-instock{
+    margin: 15px;
+    text-decoration-line: underline;
+
+}
+
+.card-button{
+    margin: 10px;
+    margin-left: 70px;
+    background-color: 
+    #3F3232;
+    color: #F7F5F5;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 8px;
+}
+
+.main-button{
+    margin-left: 900px;
+    margin-top: 50px;
+    background-color: 
+    #3F3232;
+    color: #F7F5F5;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+footer{
+    height: 200px;
+    background-color: #F7F5F5;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    padding-top: 30px;
+}
+
+.socials {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.info img {
+    width: 150px;
+}
+
+.footer-3 p {
+    Font family: Cinzel;
+    Font style: Regular;
+    margin-bottom: 20px;
+    color: #75464A;
+}
+
+.galerry-container {
+    margin: 100px 100px;
+}
+
+
+.frame-1 :hover, .frame-2 :hover, .frame-3 :hover {
+    transform: scale(1.1)
+}
+
+.frame-1, .frame-2, .frame-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.contactus {
+    margin-top: 50px;
+    font-weight: bold;
+}
+.contact-cont {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+.contact-cont h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-cont {
+    align-items: flex-end;
+}
+
+
+.name-cont {
+    display: flex;
+    justify-content:space-between
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tell-us input {
+    height: 280px;
+    width: 400px;
+}
+.inputs input {
+    width: 350px;
+    height: 30px;
+    color: #3F3232;
+
+}
+
+.tell-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-register {
+    margin-top: 40px;
+}
+
+.contact-register p {
+    margin-bottom: 10px;
+}
+.contact-register input {
+    margin-bottom: 30px;
+}
+
+.vegar-movaswari{
+    font-size: 50px;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
